@@ -2,8 +2,11 @@
 	padding:0;
 	margin:0;
 }
+ul{
+	list-style-type: none;
+}
 #container{
-	width:1060px;
+	width:970px;
 	padding:25px 0px 25px 0px;
 	background: #EEEEEE
 }
@@ -11,22 +14,21 @@
 .boxblue{
 	border:1px solid black;
 	margin-bottom:1px;
-	width: 30px;
-	height: 30px;
-	padding:10px;
-	line-height:11px;
+	width: 25px;
+	height: 25px;
+	padding:8px;
 	text-align: center;
 	font-size:0.6em;
 	background:#689BFF;
 }
 
+
 .boxred{
 	border:1px solid black;
 	margin-bottom:1px;
-	width: 30px;
-	height: 30px;
-	padding:10px;
-	line-height:11px;
+	width: 25px;
+	height: 25px;
+	padding:8px;
 	text-align: center;
 	font-size:0.6em;
 	background:#FD9A98;
@@ -35,10 +37,9 @@
 .boxyellow{
 	border:1px solid black;
 	margin-bottom:1px;
-	width: 30px;
-	height: 30px;
-	padding:10px;
-	line-height:11px;
+	width: 25px;
+	height: 25px;
+	padding:8px;
 	text-align: center;
 	font-size:0.6em;
 	background:#FECB00;
@@ -47,14 +48,40 @@
 .boxgreen{
 	border:1px solid black;
 	margin-bottom:1px;
-	width: 30px;
-	height: 30px;
-	padding:10px;
-	line-height:11px;
+	width: 25px;
+	height: 25px;
+	padding:8px;
 	text-align: center;
 	font-size:0.6em;
 	background:#1FCA21;
 	display:inline-block;
+}
+
+.boxclearhorizontal{
+	margin:1px;
+	margin-bottom:1px;
+	width: 25px;
+	height: 25px;
+	padding:8px;
+	text-align: center;
+	font-size:0.6em;
+	display:inline-block;
+}
+
+span.element{
+	display:block;
+	font-size:1em;
+	font-weight: 600;
+}
+
+.boxclearvertical{
+	margin:1px;
+	margin-bottom:0px;
+	width: 25px;
+	height: 25px;
+	padding:8px;
+	text-align: center;
+	font-size:0.6em;
 }
 
 .panel{
@@ -62,12 +89,18 @@
 }
 
 
+.toppanel{
+	display:inline-block;
+	margin-left:5px;
+}
+
+
 #top{
-	margin-left:25px;
+	margin-left:55px;
 	margin-top:25px;
 }
 
 #bottom{
 	margin-top:25px;
-	margin-left:138px;
+	margin-left:150px;
 }
