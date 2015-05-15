@@ -1,6 +1,7 @@
 *{
-	padding:0;
-	margin:0;
+	padding:0px;
+	margin:0px;
+
 }
 ul{
 	list-style-type: none;
@@ -14,9 +15,9 @@ ul{
 .boxblue{
 	border:1px solid black;
 	margin-bottom:1px;
-	width: 25px;
-	height: 25px;
-	padding:8px;
+	width: 30px;
+	height: 30px;
+	padding:7px;
 	text-align: center;
 	font-size:0.6em;
 	background:#689BFF;
@@ -26,9 +27,9 @@ ul{
 .boxred{
 	border:1px solid black;
 	margin-bottom:1px;
-	width: 25px;
-	height: 25px;
-	padding:8px;
+	width: 30px;
+	height: 30px;
+	padding:7px;
 	text-align: center;
 	font-size:0.6em;
 	background:#FD9A98;
@@ -37,9 +38,9 @@ ul{
 .boxyellow{
 	border:1px solid black;
 	margin-bottom:1px;
-	width: 25px;
-	height: 25px;
-	padding:8px;
+	width: 30px;
+	height: 30px;
+	padding:7px;
 	text-align: center;
 	font-size:0.6em;
 	background:#FECB00;
@@ -48,9 +49,9 @@ ul{
 .boxgreen{
 	border:1px solid black;
 	margin-bottom:1px;
-	width: 25px;
-	height: 25px;
-	padding:8px;
+	width: 30px;
+	height: 30px;
+	padding:7px;
 	text-align: center;
 	font-size:0.6em;
 	background:#1FCA21;
@@ -60,12 +61,25 @@ ul{
 .boxclearhorizontal{
 	margin:1px;
 	margin-bottom:1px;
-	width: 25px;
-	height: 25px;
-	padding:8px;
+	width: 30px;
+	height: 30px;
+	padding:7px;
 	text-align: center;
 	font-size:0.6em;
 	display:inline-block;
+	color:red;
+}
+
+.boxbottom{
+	margin:1px;
+	margin-bottom:1px;
+	width: 100px;
+	height: 30px;
+	padding:7px;
+	text-align: center;
+	font-size:0.6em;
+	display:inline-block;
+	color:red;
 }
 
 span.element{
@@ -77,11 +91,12 @@ span.element{
 .boxclearvertical{
 	margin:1px;
 	margin-bottom:0px;
-	width: 25px;
-	height: 25px;
-	padding:8px;
+	width: 30px;
+	height: 30px;
+	padding:7px;
 	text-align: center;
 	font-size:0.6em;
+	color:red;
 }
 
 .panel{
@@ -91,16 +106,25 @@ span.element{
 
 .toppanel{
 	display:inline-block;
-	margin-left:5px;
+	margin-left:15px;
 }
 
 
 #top{
-	margin-left:55px;
-	margin-top:25px;
+	margin-left:15px;
+	margin-top:5px;
 }
 
 #bottom{
 	margin-top:25px;
-	margin-left:150px;
+	margin-left:44px;
+	width:850px;
+	display:inline-block;
 }
+
+
+
+
+
+
+
